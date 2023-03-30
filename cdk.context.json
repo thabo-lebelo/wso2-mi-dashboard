@@ -1,0 +1,49 @@
+{
+  "vpc-provider:account=858735049384:filter.tag:Name=wso2-vpc:region=af-south-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-09c9a6d4eedbe6b17",
+    "vpcCidrBlock": "10.0.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-0378b7bb6748f36d0",
+            "cidr": "10.0.128.0/18",
+            "availabilityZone": "af-south-1a",
+            "routeTableId": "rtb-0b46c68f172bb494d"
+          },
+          {
+            "subnetId": "subnet-0aabcc046f150b114",
+            "cidr": "10.0.192.0/18",
+            "availabilityZone": "af-south-1b",
+            "routeTableId": "rtb-09e585acc78e13f42"
+          }
+        ]
+      },
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-002c55be108d4c9e9",
+            "cidr": "10.0.0.0/18",
+            "availabilityZone": "af-south-1a",
+            "routeTableId": "rtb-068973254eaaf85a2"
+          },
+          {
+            "subnetId": "subnet-04c490e12c5a27a37",
+            "cidr": "10.0.64.0/18",
+            "availabilityZone": "af-south-1b",
+            "routeTableId": "rtb-02f59da94b54c067e"
+          }
+        ]
+      }
+    ]
+  },
+  "hosted-zone:account=858735049384:domainName=sovhubb.com:region=af-south-1": {
+    "Id": "/hostedzone/Z0755546271L825539AZA",
+    "Name": "sovhubb.com."
+  }
+}
